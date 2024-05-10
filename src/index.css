@@ -11,3 +11,104 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.header1
+{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  border: 1px solid black;
+
+}
+.nav-items > ul {
+  display: flex;
+  list-style-type: none;
+  
+
+}
+.nav-items > ul > li {
+  padding: 10px ;
+}
+/* li
+{
+  padding: 10px;
+} */
+.logo{
+  width: 100px;
+}
+.card{
+  width: 15vw;
+  border: 1px solid rgb(211, 196, 196);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 2px;
+  /* box-shadow: 10px 10px 5px lightcyan; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+  z-index: 10px;
+  height: 60vh;
+  
+}
+.card > img{
+  width: 100%;
+  height: 40%;
+}
+.RestCard{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+  
+}
+.Mp
+{
+  display: flex;
+  justify-content: space-between;
+}
+.Mc
+{
+ width: 40vw;
+ 
+ 
+}
+ul
+{
+  display: flex;
+ gap: 15px;
+  list-style: none;
+ justify-content: end;
+}
+li{
+  border: 1px solid red;
+  color: red;
+  padding: 5px 10px 5px 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+.stock
+{
+  color: green;
+  margin-top: 0px;
+  margin-top: 0px;
+}
+.namevar{
+  margin-bottom: 3px;
+}
+.price{
+  margin-top: 0px;
+}
+.leftmenu{
+  display: flex;
+  gap: 5px;
+  
+}
+button{
+  width: 100px;
+  height: 30px;
+  margin-top: 15px;
+  
+  
+}
+.svg{
+ 
+  float:right;
+}
