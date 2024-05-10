@@ -1,4 +1,4 @@
-import App from "./App";
+
 import RestrauntCard from "./RestrauntCard";
 import Mobile from "./Mobile";
 
